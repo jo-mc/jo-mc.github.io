@@ -72,6 +72,17 @@
             background-color: #555555;
             color: white;
         }
+        
+        .button6 {
+            background-color: white;
+            color: black;
+            border: 2px solid #ff9900;
+        }
+
+        .button6:hover {
+            background-color: #ff9900;
+            color: white;
+        }        
     </style>
 
     <script>
@@ -93,6 +104,9 @@
                 case "nebulo":
                 document.getElementById('work').src = "https://jo-mc.github.io/nebulostat/";
                     break;  
+                case "bioscript":
+                document.getElementById('work').src = "https://jo-mc.github.io/bioscripts/";
+                    break;                      
                 default:
                 // code block  https://jo-mc.github.io/carp-alts/   https://jo-mc.github.io/nebulostat/
             }
@@ -108,6 +122,7 @@ Joe M. sample Projects web pages
 <button class="button button3" onclick="myFunction(this.id)" id="one">One Liner</button>
 <button class="button button4" onclick="myFunction(this.id)" id="carp">CARP improv</button>
 <button class="button button5" onclick="myFunction(this.id)" id="nebulo">Run Stat</button>
+<button class="button button6" onclick="myFunction(this.id)" id="bioscript">bioscripts</button>    
 <br />
 
 <iframe id="work" src="intro.html" width="85%" height="700" style="border:1px solid black;">
